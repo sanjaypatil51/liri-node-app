@@ -1,13 +1,30 @@
 # liri-node-app
+
+Author: Sanjay Patil
+Date: 02/09/2020
+
+
+Technology Used:  Javascript, node.js
+APIs: spotify, omdbapi, bandsintown and axios
+
+
 This BOT will help you to spoitfy song, get concert venue detail or movie deatils
 
-For spofity you need tio get your own key and store inot .env file in below format:
+Installation:
+
+Clone this APP from github, clone url: git@github.com:sanjaypatil51/liri-node-app.git
+
+After downloading app, cd to directory and run below command from command prompt or from terminal
+
+npm install
+
+For spofity you need to get your own key and store it inot  ".env" file in below format:
 
 SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
 
 
-Commands to run:
+Commands to run app:
 
 Option 1: Find Artisit concert:
 

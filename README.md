@@ -12,6 +12,8 @@ This BOT will help you to spoitfy song, get concert venue detail or movie deatil
 
 Installation:
 
+Download and Install node url: https://nodejs.org/en/download/
+
 Clone this APP from github, clone url: git@github.com:sanjaypatil51/liri-node-app.git
 
 After downloading app, cd to directory and run below command from command prompt or from terminal

@@ -170,6 +170,9 @@ function liriBot() {
             });
 
     }
+    else {
+        console.log("-------Not A Valid Request---- Please read README.md for valid requeest/command")
+    }
 }
 
 if (commandType === "do-what-it-says") {

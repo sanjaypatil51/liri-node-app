@@ -122,7 +122,7 @@ function liriBot() {
                 console.log("Title: " + response.data.Title);
                 console.log("Release Year: " + response.data.Year);
                 console.log("IMDB Rating: " + response.data.imdbRating);
-                //fet index of rotten tomatoe rating object rom Rating array
+                //get index of rotten tomatoe rating object rom Rating array
                 var rottemRatingIndex = response.data.Ratings.findIndex(p => p.Source == "Rotten Tomatoes")
                 console.log("Rotten Tomatoes Rating: " + response.data.Ratings[rottemRatingIndex].Value);
                 console.log("Language: " + response.data.Language);
